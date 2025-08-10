@@ -1,0 +1,105 @@
+.body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.judul {
+  display: flex;
+  color:rgb(255, 255, 255);
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgba(121, 122, 125, 0.75);
+  block-size: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  max-width: fit-content;
+}
+
+.juduldua {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.judulsecond {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-family: "Libertinus Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+  background-color: rgba(121, 122, 125, 0.75); /* warna background nyatu */
+  block-size: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  max-width: fit-content;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-menu-box {
+  /* Style untuk kotak itu sendiri */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  background-color: rgba(121, 122, 125, 0.75); /* warna background nyatu */
+  block-size: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  max-width: fit-content;
+  gap: 6px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn {
+  background:var(--accent);
+  color:#fff; /* biar teks putih */
+  text-decoration:none; /* ilangin underline kalau itu <a> */
+  border:none;
+  padding:10px 16px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight: 600px;
+  text-align: center;
+  font-size:17px;
+}
+
+.btn:hover{
+  background: #d4d0d0; /* warna hover */
+  color: #fff; /* tetep putih */
+}
+
+.bawah {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.bottom {
+  background-color: rgba(121, 122, 125, 0.75); /* warna background nyatu */
+  block-size: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  max-width: fit-content;
+  gap: 10px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 350px;
+}
